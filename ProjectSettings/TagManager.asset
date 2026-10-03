@@ -9,6 +9,7 @@ TagManager:
   - FoodWaste
   - Gabage
   - TrashBox
+  - StickyThing
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - FoodWaste
   - Tongs
   - Dust
-  - 
-  - 
+  - Zoukin
+  - Paste
   - 
   - 
   - 

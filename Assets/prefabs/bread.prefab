@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1230581107650285957, guid: a9991c32a3184e6498500c2a96fbbbe9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e70257f0544cddd4cb5dd88f100e8461, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -179,7 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd0ab8f42cba79d44864f7be0a60768f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodWaste
-  trashBox: {fileID: 0}
   Dust: {fileID: 1958870156506775989, guid: acbb8efe6c320a047aaf6d825c468de4, type: 3}
   tongs: {fileID: 0}
   spawnDustLimit: 3

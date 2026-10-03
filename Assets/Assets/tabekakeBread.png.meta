@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: e70257f0544cddd4cb5dd88f100e8461
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4278023705722364909
+    second: tabekakeBread_0
+  - first:
+      213: -2721270477544274925
+    second: tabekakeBread_1
+  - first:
+      213: -1290294239119559851
+    second: tabekakeBread_2
+  - first:
+      213: 4655851706493122536
+    second: tabekakeBread_3
+  - first:
+      213: 5384320876597486639
+    second: tabekakeBread_4
+  - first:
+      213: 1710485289783757526
+    second: tabekakeBread_5
+  - first:
+      213: -1422554874928766075
+    second: tabekakeBread_6
+  - first:
+      213: 7452057895929592388
+    second: tabekakeBread_7
+  - first:
+      213: -892030125174961026
+    second: tabekakeBread_8
+  - first:
+      213: 5221906889720543161
+    second: tabekakeBread_9
+  - first:
+      213: 202032344576388882
+    second: tabekakeBread_10
+  - first:
+      213: 302484688745776127
+    second: tabekakeBread_11
+  - first:
+      213: 4892152413997863943
+    second: tabekakeBread_12
+  - first:
+      213: 8560542705204859230
+    second: tabekakeBread_13
+  - first:
+      213: -1498264456214895644
+    second: tabekakeBread_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tabekakeBread_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 335
+        width: 1148
+        height: 1410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de32848f4e79e5b30800000000000000
+      internalID: 4278023705722364909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_1
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 847
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31447382bea1c3ad0800000000000000
+      internalID: -2721270477544274925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_2
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 739
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553bb8dc934f71ee0800000000000000
+      internalID: -1290294239119559851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_3
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 688
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e73b649578ec9040800000000000000
+      internalID: 4655851706493122536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_4
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 616
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2420565f43f8ba40800000000000000
+      internalID: 5384320876597486639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_5
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 605
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da871bfe4ddcb710800000000000000
+      internalID: 1710485289783757526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_6
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 423
+        width: 136
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583ee56d0e1124ce0800000000000000
+      internalID: -1422554874928766075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_7
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 512
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a37847c270b6760800000000000000
+      internalID: 7452057895929592388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_8
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 388
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ccffbc35fde93f0800000000000000
+      internalID: -892030125174961026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_9
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 451
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b735fb36a0f77840800000000000000
+      internalID: 5221906889720543161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_10
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 321
+        width: 120
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f6d93d853cdc200800000000000000
+      internalID: 202032344576388882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_11
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 373
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3cfa6c834a23400800000000000000
+      internalID: 302484688745776127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_12
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 305
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704996763ba64e340800000000000000
+      internalID: 4892152413997863943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 302
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e511c441c382dc670800000000000000
+      internalID: 8560542705204859230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabekakeBread_14
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 305
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3a7bb4a68153be0800000000000000
+      internalID: -1498264456214895644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tabekakeBread_0: 4278023705722364909
+      tabekakeBread_1: -2721270477544274925
+      tabekakeBread_10: 202032344576388882
+      tabekakeBread_11: 302484688745776127
+      tabekakeBread_12: 4892152413997863943
+      tabekakeBread_13: 8560542705204859230
+      tabekakeBread_14: -1498264456214895644
+      tabekakeBread_2: -1290294239119559851
+      tabekakeBread_3: 4655851706493122536
+      tabekakeBread_4: 5384320876597486639
+      tabekakeBread_5: 1710485289783757526
+      tabekakeBread_6: -1422554874928766075
+      tabekakeBread_7: 7452057895929592388
+      tabekakeBread_8: -892030125174961026
+      tabekakeBread_9: 5221906889720543161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
