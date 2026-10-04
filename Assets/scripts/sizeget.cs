@@ -9,7 +9,7 @@ public class sizeget : MonoBehaviour
     void Awake()
     {
         originalScale = transform.localScale;
-        PlayerStatus = GameObject.Find("gameControler").GetComponent<playerStatus>();
+        PlayerStatus = GameObject.Find("playerStatus").GetComponent<playerStatus>();
     }
 
     // Update is called once per frame

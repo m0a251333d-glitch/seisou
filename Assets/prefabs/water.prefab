@@ -10,10 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5787729315450584852}
   - component: {fileID: 4513866850425844444}
-  - component: {fileID: 7399766123670040712}
   - component: {fileID: -3299038111978699570}
   - component: {fileID: -6246983103844112596}
-  - component: {fileID: 4014099147178531526}
   - component: {fileID: -8545825496681297184}
   - component: {fileID: 5711667376184397287}
   m_Layer: 4
@@ -97,19 +95,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &7399766123670040712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6184710404013722126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bef7dc783e893b4282dd1560f612f9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::water
-  paste: {fileID: 8726451092195998867, guid: 40758552288c79341949d99e2388b986, type: 3}
 --- !u!61 &-3299038111978699570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -183,19 +168,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4014099147178531526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6184710404013722126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4373734cbf9032c4fb1f3224ff7aa025, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::gabagespawner
-  gabage: []
 --- !u!114 &-8545825496681297184
 MonoBehaviour:
   m_ObjectHideFlags: 0

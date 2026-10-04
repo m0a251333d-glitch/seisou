@@ -786,12 +786,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 585477478}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3c7e6f072a8f4540a8ab8e85bcdff4f, type: 3}
+  m_Script: {fileID: 11500000, guid: f50c6bff0a1771f4383ec5a14b50f759, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::useTool
+  m_EditorClassIdentifier: Assembly-CSharp::useZoukin
   PlayerStatus: {fileID: 2079498381}
   thisItemusing: 0
-  itemName: zoukin
+  itemName: 
+  myCollider: {fileID: 585477479}
+  cleaningSpeed: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +889,7 @@ GameObject:
   - component: {fileID: 771156639}
   - component: {fileID: 771156638}
   - component: {fileID: 771156637}
+  - component: {fileID: 771156640}
   m_Layer: 3
   m_Name: kaden_soujiki_stick_0
   m_TagString: Untagged
@@ -1015,6 +1018,22 @@ Transform:
   - {fileID: 861749243}
   m_Father: {fileID: 1532152699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &771156640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771156636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a6ecac2498ac94aa8a851cccc36816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::useSoujiki
+  PlayerStatus: {fileID: 2079498381}
+  thisItemusing: 0
+  itemName: 
+  myCollider: {fileID: 771156637}
 --- !u!1 &861749242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2734,7 +2753,7 @@ GameObject:
   - component: {fileID: 2079498378}
   - component: {fileID: 2079498381}
   m_Layer: 0
-  m_Name: gameControler
+  m_Name: playerStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,12 +1,10 @@
 using UnityEngine;
 
-public class useZoukin : useTool
+public class useSoujiki : useTool
 {
     public Collider2D myCollider;
     private ContactFilter2D otherColliderFilter;
     private Collider2D[] otherCollider = new Collider2D[10];
-    private bool cleaning = false;
-    public float cleaningSpeed = 0.1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected override void Start()
     {
@@ -17,22 +15,17 @@ public class useZoukin : useTool
     protected override void Update()
     {
         base.Update();
-        if (Input.GetMouseButton(0) && thisItemusing)
+        if (Input.GetMouseButton(0)&& thisItemusing)
         {
             int hitCount = myCollider.Overlap(otherColliderFilter, otherCollider);
             for (int i = 0; i < otherCollider.Length; i++)
             {
-                if (otherCollider[i] != null && otherCollider[i].CompareTag("StickyThing"))
+                if (otherCollider[i] != null && otherCollider[i].CompareTag("breadkuzu"))
                 {
                     Vector3 size = otherCollider[i].transform.localScale;
-                    otherCollider[i].transform.localScale -= size * Time.deltaTime;
-                    if (otherCollider[i].transform.localScale.x < 0.1f * size.x && otherCollider[i].transform.localScale.y < 0.1f * size.y)
-                    {
-                        Destroy(otherCollider[i].gameObject);
-                    }
+                    otherCollider[i].transform.localScale = new Vector3(size.x - 1f * size.x * Time.deltaTime, size.y - 1f * size.y * Time.deltaTime, size.z);
                 }
             }
         }
     }
-
 }
