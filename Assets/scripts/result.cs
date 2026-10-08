@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class result : MonoBehaviour
 {
+    public GameObject resultText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,7 +14,7 @@ public class result : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            this.gameObject.SetActive(true);   
+            resultText.gameObject.SetActive(true);   
         }
     }
 }

@@ -4,6 +4,7 @@ public class gabagespawner : MonoBehaviour
 {
     public GameObject[] gabage;
     private Vector2 spawnPoint;
+    public static int gabageCount = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,6 +17,7 @@ public class gabagespawner : MonoBehaviour
                 spawnPoint.x = vectorx;
                 spawnPoint.y = vectory;
                 Instantiate(gabage[i], spawnPoint, Quaternion.identity);
+                gabageCount++;
             }
         }
     }

@@ -1,11 +1,13 @@
 using UnityEngine;
-
+using static gabagespawner;
+using static playerStatus;
 public class water : MonoBehaviour
 {
-    public GameObject paste;
+    public GameObject PasteObject;
     private Rigidbody2D rb;
     private float fallSpeed = 0.03f;
     private Vector3 defaultSize;
+    public int Score;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +24,9 @@ public class water : MonoBehaviour
     {
         if(transform.localScale.x < defaultSize.x * 0.3f)
         {
+            gabageCount--;
+
+            score += Score;
             Destroy(gameObject);
         }
 
@@ -30,12 +35,19 @@ public class water : MonoBehaviour
     {
         if (other.gameObject.CompareTag("breadkuzu"))
         {
-            Quaternion spawnRotation = Quaternion.identity;
-            Vector3 centerPosition = (transform.position + other.gameObject.transform.position) * 0.5f;
-            Debug.Log("bread fusioned with bread");
-            Instantiate(paste, centerPosition, Quaternion.identity);
-            Destroy(other.gameObject);
-            Destroy(gameObject);
+            if(GetInstanceID()>other.gameObject.GetInstanceID())
+            {
+                Quaternion spawnRotation = Quaternion.identity;
+                Vector3 centerPosition = (transform.position + other.gameObject.transform.position) * 0.5f;
+                Debug.Log("bread fusioned with bread");
+                GameObject newPaste = Instantiate(PasteObject, centerPosition, Quaternion.identity);
+                var pasteScript = newPaste.GetComponent<paste>();
+                pasteScript.Score = Score;
+                gabageCount--;
+                
+                Destroy(other.gameObject);
+                Destroy(gameObject);
+            }
         }
     }
 }

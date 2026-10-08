@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 public class timer : MonoBehaviour
 {
-    public float time = 60.0f;
+    public static float time = 60.0f;
     public TextMeshProUGUI timerUI;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

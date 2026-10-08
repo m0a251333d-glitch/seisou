@@ -1,10 +1,12 @@
 using UnityEngine;
-
+using static gabagespawner;
+using static playerStatus;
 public class FoodWaste : MonoBehaviour
 {
     public GameObject Dust;
     public Tongs tongs;
     int spawnedDust = 0;
+    public int Score;
     public int spawnDustLimit = 3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,7 +31,9 @@ public class FoodWaste : MonoBehaviour
             {
                 tongs.targetObject = null;
             }
-                Destroy(gameObject);
+            gabageCount--;
+            score += Score;
+            Destroy(gameObject);
         }
         else
         {
@@ -38,6 +42,7 @@ public class FoodWaste : MonoBehaviour
             {
                 Instantiate(Dust, transform.position, Quaternion.identity);
                 spawnedDust++;
+                gabageCount++;
             }
 
         }
